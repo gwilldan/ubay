@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { useState } from 'react';
+import {Header, Catergories, TopDeals} from "./components/compIndex";
+import './App.css';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="">
-      <h1></h1>
+      <Header />
+      <Catergories />
+      <TopDeals />
     </div>
   )
 }
