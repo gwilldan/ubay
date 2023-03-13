@@ -6,8 +6,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App bg-slate-50">
-      <h1>HELLO I'M CSS</h1>
+    <div className="">
+      <h1></h1>
     </div>
   )
 }
