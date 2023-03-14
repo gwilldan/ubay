@@ -10,25 +10,25 @@ function Nav() {
 
       {/* input and search bar  */}
       <div className='flex items-center bg-white p-2  rounded-3xl border border-b4'>
-          <input type="text" placeholder='Search for items, categories' className='w-[687px] pl-4 focus:outline-none' />
-          <button className=' bg-b3  text-white p-2 rounded-full '><FaSistrix  /></button>
+          <input type="text" placeholder='Search for items, categories' className='w-[687px] pl-4 focus:outline-none ' />
+          <button className=' bg-b3  text-white p-2 rounded-full hover:bg-b4'><FaSistrix  /></button>
       </div>
 
       {/* Account button*/}
-      <button className=' flex items-center gap-2'>
+      <button className=' flex items-center gap-2 hover:underline'>
         <BsPerson />
         Account
         <FaAngleDown />
       </button>
 
        {/* Wishlist button */}
-       <button className=' flex items-center gap-2'>
+       <button className=' flex items-center gap-2 hover:underline'>
         <BiHeart />
         Wish-list
       </button>
 
        {/* account buttons */}
-       <button className=' flex items-center gap-2'>
+       <button className=' flex items-center gap-2 hover:underline'>
         <BsCart3 />
         Cart
       </button>
