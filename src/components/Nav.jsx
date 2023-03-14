@@ -9,7 +9,7 @@ function Nav() {
     <div className=' bg-b1 h-[99px]  pl-[305px] flex items-center gap-8 shadow-md'>
 
       {/* input and search bar  */}
-      <div className='flex items-center bg-white p-2  rounded-3xl border border-b4'>
+      <div className='flex items-center bg-white p-2  rounded-3xl border-[0.5px] border-b4'>
           <input type="text" placeholder='Search for items, categories' className='w-[687px] pl-4 focus:outline-none ' />
           <button className=' bg-b3  text-white p-2 rounded-full hover:bg-b4'><FaSistrix  /></button>
       </div>
