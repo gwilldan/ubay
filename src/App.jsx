@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {Nav, Catergories, TopDeals} from "./components/compIndex";
+import {Nav, Catergories, TopDeals, Footer} from "./components/compIndex";
 import './App.css';
 import AdsBar from "./assets/AdsBar.png";
 
@@ -32,6 +32,9 @@ function App() {
         </div>
         <TopDeals />
       </div>
+
+      <Footer />
+      
     </div>
   )
 }
